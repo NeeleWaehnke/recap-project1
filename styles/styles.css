@@ -1,22 +1,85 @@
 * {
   box-sizing: border-box;
   width: 100%;
-  border: 1px solid red;
+
   margin: 0;
   font-family: sans-serif;
 }
+body {
+  background-color: aquamarine;
+}
 /* Header Styling */
 .header {
+  width: 100%;
+  display: block;
   height: fit-content;
   padding: 10px;
+  background-color: lightpink;
+  margin-bottom: 30px;
 }
 
 h1 {
   text-align: center;
 }
 
+/*Question Card */
+
+section {
+  width: 75%;
+  position: relative;
+  margin-bottom: 30px;
+  left: 100px;
+  right: 100px;
+  padding: 10px;
+  border: 1px dotted lightgray;
+  background-color: aliceblue;
+}
+
+.question {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.answer {
+  text-align: center;
+  margin-top: 20px;
+}
+
 .button {
-  width: auto;
+  width: 100px;
+  display: block;
+  margin: auto;
+  background: transparent;
+}
+
+.bookmark {
+  display: flex;
+  position: absolute;
+  top: -12px;
+  right: 0px;
+  height: 50px;
+  width: 50px;
+}
+.tag {
+  display: inline;
+  margin-top: 10px;
+  font-size: smaller;
+}
+
+/* Footer */
+footer {
+  position: sticky;
+}
+.navbar {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: lightpink;
+  padding: 20px;
+}
+.navlist {
+  display: flex;
+  justify-content: space-around;
 }
 
 ul {
