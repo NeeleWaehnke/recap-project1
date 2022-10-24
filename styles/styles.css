@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   width: 100%;
-
   margin: 0;
   font-family: sans-serif;
 }
@@ -30,7 +29,7 @@ section {
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
+  padding: 20px;
   border: 1px dotted lightgray;
   background-color: aliceblue;
   border-radius: 5px;
@@ -44,6 +43,7 @@ section {
 .answer {
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .button {
@@ -51,13 +51,14 @@ section {
   display: block;
   margin: auto;
   background: transparent;
+  margin-bottom: 10px;
 }
 
 .bookmark {
   display: flex;
   position: absolute;
-  top: -12px;
-  right: 0px;
+  top: -13px;
+  right: -7px;
   height: 50px;
   width: 50px;
 }
@@ -65,22 +66,48 @@ section {
   display: inline;
   margin-top: 10px;
   font-size: smaller;
+  margin-bottom: 0px;
+  border: 1px solid black;
 }
 
 /* Footer */
-footer {
-  position: sticky;
-}
+
 .navbar {
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
+  position: sticky;
+  bottom: 100px;
   background-color: lightpink;
-  padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 4px;
+  border: 1px solid black;
+  align-items: flex-start;
 }
 .navlist {
   display: flex;
   list-style: none;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+  margin: auto;
+}
+.home {
+  width: 57px;
+  height: 59px;
+  margin-left: -10px;
+
+  padding: 0;
+}
+.book-nav {
+  width: 59px;
+  height: 59px;
+}
+.profile {
+  width: 59px;
+  height: 59px;
+  margin-right: 15px;
+}
+
+.home:active {
+  background-color: aliceblue;
+}
+.active {
+  background-color: aliceblue;
 }
