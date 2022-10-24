@@ -28,11 +28,12 @@ section {
   width: 75%;
   position: relative;
   margin-bottom: 30px;
-  left: 100px;
-  right: 100px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px;
   border: 1px dotted lightgray;
   background-color: aliceblue;
+  border-radius: 5px;
 }
 
 .question {
@@ -76,12 +77,10 @@ footer {
   justify-content: space-around;
   background-color: lightpink;
   padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .navlist {
   display: flex;
-  justify-content: space-around;
-}
-
-ul {
   list-style: none;
 }
