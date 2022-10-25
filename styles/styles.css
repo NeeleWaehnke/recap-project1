@@ -1,13 +1,7 @@
+@import "./global.css";
+
 @import "./components/";
-@import "./global.css" * {
-  box-sizing: border-box;
-  width: 100%;
-  margin: 0;
-  font-family: sans-serif;
-}
-body {
-  background-color: aquamarine;
-}
+
 /* Header Styling */
 .header {
   width: 100%;
