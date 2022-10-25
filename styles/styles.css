@@ -67,18 +67,25 @@ section {
   margin-top: 10px;
   font-size: smaller;
   margin-bottom: 0px;
-  border: 1px solid black;
 }
 
 /* Footer */
+footer {
+  display: flex;
+  position: sticky;
+  bottom: 5px;
+  margin-bottom: 0;
+}
 
 .navbar {
   position: sticky;
-  bottom: 100px;
+
   background-color: lightpink;
   padding: 4px;
   border: 1px solid black;
   align-items: flex-start;
+  display: flex;
+  margin-bottom: 0;
 }
 .navlist {
   display: flex;
@@ -111,8 +118,8 @@ section {
 .active {
   background-color: aliceblue;
 }
-  a {
-    height: 59x;
-    width: 59px;
-    padding: 45px 0 0px 0
-  }
+a {
+  height: 59x;
+  width: 59px;
+  padding: 45px 0 0px 0;
+}
