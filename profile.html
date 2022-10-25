@@ -8,33 +8,24 @@
 
     <title>Quiz App</title>
   </head>
+  <header class="header">
+    <h1>Quiz App</h1>
+  </header>
   <body>
-    <header class="header">
-      <h1>Quiz App</h1>
-    </header>
     <main>
-      <section class="question-open">
-        <div class="bookmark">
-          <img src="assets/bookmark-line-svgrepo-com.svg" alt="" />
+      
+        <div class="user-section">
+          <img
+            class="profile-picture"
+            src="./assets/profile-pic.png"
+            alt="Profile"
+          />
+          <p>Name</p>
         </div>
-        <p class="question">What property flips the axes in flexbox?</p>
-        <button class="button">Hide answer</button>
-        <p class="answer">flex-direction</p>
-        <div class="tag">#flexbox</div>
-        <div class="tag">#css</div>
       </section>
-
-      <section class="question-close">
-        <div class="bookmark">
-          <img src="assets/bookmark-line-svgrepo-com.svg" alt="" />
-        </div>
-
-        <p class="question">What property flips the axes in flexbox?</p>
-        <button class="button">Show answer</button>
-        <div class="tag">#flexbox</div>
-        <div class="tag">#css</div>
-      </section>
+      <section class="settings"></section>
     </main>
+
     <footer>
       <nav class="navbar">
         <ul class="navlist">
@@ -44,12 +35,12 @@
             /></a>
           </li>
           <li class="book-nav">
-            <a class="active" href="./bookmarks.html"
+            <a href="./bookmarks.html"
               ><img src="assets/bookmark-line-svgrepo-com.svg" alt="bookmark"
             /></a>
           </li>
           <li class="profile">
-            <a href="./profile.html"
+            <a class="active" href="./profile.html"
               ><img src="assets/profile-simple-svgrepo-com.svg" alt="profile"
             /></a>
           </li>
