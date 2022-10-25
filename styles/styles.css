@@ -120,3 +120,8 @@ a {
   width: 59px;
   padding: 45px 0 0px 0;
 }
+
+/* profile section */
+section.profile {
+  border: 1px solid black;
+}
