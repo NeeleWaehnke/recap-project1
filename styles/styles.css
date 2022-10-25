@@ -1,9 +1,8 @@
-@import "./global.css";
+@import "./components/header.css";
+@import "./components/questioncard.css";
+@import "/global.css";
 
-@import "./components/";
-
-/* Header Styling */
-.header {
+Header Styling .header {
   width: 100%;
   display: block;
   height: fit-content;
@@ -15,9 +14,9 @@
 h1 {
   text-align: center;
 }
-
-/*Question Card */
-
+*/
+  /*Question Card */
+  
 section {
   width: 75%;
   position: relative;
@@ -65,7 +64,8 @@ section {
 }
 
 /* Footer */
-footer {
+
+.footer {
   display: flex;
   position: sticky;
   bottom: 0px;

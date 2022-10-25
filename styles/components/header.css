@@ -1,0 +1,12 @@
+.header {
+  width: 100%;
+  display: block;
+  height: fit-content;
+  padding: 10px;
+  background-color: lightpink;
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+}
