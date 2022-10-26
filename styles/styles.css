@@ -1,8 +1,10 @@
 @import "./components/header.css";
 @import "./components/questioncard.css";
-@import "/global.css";
+@import "/styles/global.css";
 
-Header Styling .header {
+/*Header Styling
+
+.header {
   width: 100%;
   display: block;
   height: fit-content;
@@ -15,30 +17,31 @@ h1 {
   text-align: center;
 }
 */
-  /*Question Card */
-  
-section {
+/*Question Card */
+/*
+.questioncard {
   width: 75%;
   position: relative;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
-  border: 1px dotted lightgray;
-  background-color: aliceblue;
+  border: 1px solid black;
+  background-color: hotpink;
   border-radius: 5px;
 }
 
-.question {
+.questioncard__question {
   margin-bottom: 20px;
   text-align: center;
 }
 
-.answer {
+.questioncard__answer {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 10px;
 }
+
 
 .button {
   width: 100px;
@@ -48,11 +51,11 @@ section {
   margin-bottom: 10px;
 }
 
-.bookmark {
+.questioncard__bookmark {
   display: flex;
   position: absolute;
-  top: -13px;
-  right: -7px;
+  top: -18px;
+  right: -15px;
   height: 50px;
   width: 50px;
 }
@@ -62,6 +65,7 @@ section {
   font-size: smaller;
   margin-bottom: 0px;
 }
+
 
 /* Footer */
 
@@ -86,13 +90,14 @@ section {
   justify-content: space-around;
   gap: 20px;
   align-items: center;
-  margin: auto;
+  margin: 0;
 }
 .home {
   width: 57px;
-  height: 59px;
+  height: 60px;
   margin-left: -10px;
-  padding: 0;
+  margin-bottom: 5px;
+  padding: 0px;
 }
 .book-nav {
   width: 59px;
@@ -104,16 +109,8 @@ section {
   margin-right: 15px;
 }
 
-.home:active {
-  background-color: aliceblue;
-}
 .active {
   background-color: aliceblue;
-}
-a {
-  height: 59x;
-  width: 59px;
-  padding: 45px 0 0px 0;
 }
 
 /* profile section */
