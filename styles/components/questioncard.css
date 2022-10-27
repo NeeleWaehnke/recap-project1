@@ -1,0 +1,45 @@
+.questioncard {
+  width: 75%;
+  position: relative;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+.questioncard__question {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.questioncard__answer {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.questioncard__button {
+  width: 100px;
+  display: block;
+  margin: auto;
+  background: transparent;
+  margin-bottom: 10px;
+}
+
+.questioncard__bookmark {
+  display: flex;
+  position: absolute;
+  top: -18px;
+  right: -15px;
+  height: 50px;
+  width: 50px;
+}
+.questioncard__tag {
+  display: inline;
+  margin-top: 10px;
+  font-size: smaller;
+  margin-bottom: 0px;
+}

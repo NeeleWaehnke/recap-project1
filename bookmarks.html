@@ -13,42 +13,46 @@
       <h1>Quiz App</h1>
     </header>
     <main>
-      <section class="question-open">
-        <div class="bookmark">
+      <section class="questioncard">
+        <div class="questioncard__bookmark">
           <img src="assets/bookmark-line-svgrepo-com.svg" alt="" />
         </div>
-        <p class="question">What property flips the axes in flexbox?</p>
-        <button class="button">Hide answer</button>
-        <p class="answer">flex-direction</p>
-        <div class="tag">#flexbox</div>
-        <div class="tag">#css</div>
+        <p class="questioncard__question">
+          What property flips the axes in flexbox?
+        </p>
+        <button class="questioncard__button">Hide answer</button>
+        <p class="questioncard__answer">flex-direction</p>
+        <div class="questioncard__tag">#flexbox</div>
+        <div class="questioncard__tag">#css</div>
       </section>
 
-      <section class="question-close">
-        <div class="bookmark">
+      <section class="questioncard">
+        <div class="questioncard__bookmark">
           <img src="assets/bookmark-line-svgrepo-com.svg" alt="" />
         </div>
 
-        <p class="question">What property flips the axes in flexbox?</p>
-        <button class="button">Show answer</button>
-        <div class="tag">#flexbox</div>
-        <div class="tag">#css</div>
+        <p class="questioncard__question">
+          What property flips the axes in flexbox?
+        </p>
+        <button class="questioncard__button">Show answer</button>
+        <div class="questioncard__tag">#flexbox</div>
+        <div class="questioncard__tag">#css</div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <nav class="navbar">
-        <ul class="navlist">
-          <li class="home">
+        <ul class="navbar__list">
+          <li class="navbar__list-home">
             <a href="./index.html"
               ><img src="assets/home-svgrepo-com.svg" alt="home"
             /></a>
           </li>
-          <li class="book-nav">
+          <li class="navbar__list-bookmark navbar__list--active">
             <a class="active" href="./bookmarks.html"
               ><img src="assets/bookmark-line-svgrepo-com.svg" alt="bookmark"
             /></a>
           </li>
-          <li class="profile">
+          <li class="navbar__list-profile">
             <a href="./profile.html"
               ><img src="assets/profile-simple-svgrepo-com.svg" alt="profile"
             /></a>

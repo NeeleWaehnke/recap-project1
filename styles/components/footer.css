@@ -1,0 +1,43 @@
+.footer {
+  display: flex;
+  position: sticky;
+  bottom: 0px;
+  margin-bottom: 0;
+}
+
+.navbar {
+  position: sticky;
+  background-color: lightpink;
+  padding: 4px;
+  align-items: flex-start;
+  display: flex;
+  margin-bottom: 0;
+}
+.navbar__list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+  margin: 0;
+}
+.navbar__list-home {
+  width: 57px;
+  height: 60px;
+  margin-left: -10px;
+  margin-bottom: 5px;
+  padding: 0px;
+}
+.navbar__list-bookmark {
+  width: 59px;
+  height: 59px;
+}
+.navbar__list-profile {
+  width: 59px;
+  height: 59px;
+  margin-right: 15px;
+}
+
+.navbar__list--active {
+  background-color: aliceblue;
+}

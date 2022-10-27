@@ -1,0 +1,29 @@
+.userprofile {
+  position: relative;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px dotted lightgray;
+  background-color: aliceblue;
+  display: flex;
+}
+
+.userprofile__picture {
+  height: 150px;
+  width: 150px;
+  margin-left: 5px;
+}
+
+.userprofile__name {
+  display: flex;
+
+  margin: 0;
+  padding: 50px;
+  text-align: center;
+  justify-content: center;
+  font-size: large;
+}
+
+.settings {
+  border-style: none;
+}

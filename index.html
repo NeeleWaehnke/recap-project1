@@ -13,28 +13,36 @@
       <h1>Quiz App</h1>
     </header>
     <main>
-      <section class="question-open">
-        <div class="bookmark">
+      <section class="questioncard questioncard-open">
+        <div class="questioncard__bookmark">
           <img src="assets/bookmark-line-svgrepo-com.svg" alt="" />
         </div>
-        <p class="question">What property flips the axes in flexbox?</p>
-        <button class="button">Hide answer</button>
-        <p class="answer">flex-direction</p>
-        <p class="tag">#flexbox</p>
-        <p class="tag">#css</p>
+        <p class="questioncard__question">
+          What property flips the axes in flexbox?
+        </p>
+        <button class="questioncard__button questioncard__button-hide">
+          Hide answer
+        </button>
+        <p class="questioncard__answer">flex-direction</p>
+        <p class="questioncard__tag">#flexbox</p>
+        <p class="questioncard__tag">#css</p>
       </section>
 
-      <section class="question-close">
-        <div class="bookmark">
+      <section class="questioncard questioncard-close">
+        <div class="questioncard__bookmark">
           <img src="assets/bookmark-line-svgrepo-com.svg" alt="" />
         </div>
 
-        <p class="question">What property flips the axes in flexbox?</p>
-        <button class="button">Show answer</button>
-        <p class="tag">#flexbox</p>
-        <p class="tag">#css</p>
+        <p class="questioncard__question">
+          What property flips the axes in flexbox?
+        </p>
+        <button class="questioncard__button questioncard__button-show">
+          Show answer
+        </button>
+        <p class="questioncard__tag">#flexbox</p>
+        <p class="questioncard__tag">#css</p>
       </section>
-      <section>
+      <section class="questioncard">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
           hendrerit nisl non metus gravida, accumsan fringilla mi suscipit.
@@ -88,20 +96,20 @@
         </p>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <nav class="navbar">
-        <ul class="navlist">
-          <li class="home">
-            <a class="active" href="./index.html"
+        <ul class="navbar__list">
+          <li class="navbar__list-home navbar__list--active">
+            <a class="" href="./index.html"
               ><img src="assets/home-svgrepo-com.svg" alt="home"
             /></a>
           </li>
-          <li class="book-nav">
+          <li class="navbar__list-bookmark">
             <a href="./bookmarks.html"
               ><img src="assets/bookmark-line-svgrepo-com.svg" alt="bookmark"
             /></a>
           </li>
-          <li class="profile">
+          <li class="navbar__list-profile">
             <a href="./profile.html"
               ><img src="assets/profile-simple-svgrepo-com.svg" alt="profile"
             /></a>
