@@ -5,13 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/fe85d738be.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js" defer></script>
 
     <title>Quiz App</title>
   </head>
   <header class="header">
     <h1>Quiz App</h1>
   </header>
-  <body>
+  <body data-js="body" class=>
     <main>
       <section class="userprofile">
         <img
@@ -21,7 +26,30 @@
         />
         <p class="userprofile__name">Name</p>
       </section>
-      <section class="settings"></section>
+      <section class="userprofile__about">
+        <p class="userprofile__about-title">About Me</p>
+        <p class="userprofile__about-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          hendrerit nisl non metus gravida, accumsan fringilla mi suscipit.
+          Etiam eleifend elementum imperdiet. Sed consequat tincidunt ante. In
+          sagittis ligula sit amet facilisis efficitur. Vivamus hendrerit mi at
+          viverra tristique. Donec pretium, leo ut cursus dapibus, sapien tortor
+          dignissim sapien, nec tincidunt ipsum purus a est. Pellentesque
+          habitant morbi tristique senectus et netus et malesuada fames ac
+          turpis egestas. Cras pellentesque, turpis sollicitudin porta rutrum.
+        </p>
+      </section>
+
+      <section class="settings">
+        <p class="settings__darkmode">
+          Dark mode
+          <label class="settings__darkmode-switch">
+            <input type="checkbox" data-js="toggle-switch"/>
+            <span class="settings__darkmode-switch-slider"></span>
+          </label>
+        </p>
+        <p class="settings__darkmode">darkmode</p>
+      </section>
     </main>
 
     <footer class="footer">

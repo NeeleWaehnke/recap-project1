@@ -3,3 +3,8 @@
 @import "./components/footer.css";
 @import "./components/profile.css";
 @import "/styles/global.css";
+
+.dark_mode {
+  background-color: darkgray;
+  color: lightgray;
+}

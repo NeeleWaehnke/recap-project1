@@ -1,29 +1,78 @@
 .userprofile {
   position: relative;
-  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   border: 1px dotted lightgray;
+  border-bottom: none;
+  border-radius: 5px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0px;
   background-color: aliceblue;
   display: flex;
+  width: 75%;
 }
 
 .userprofile__picture {
   height: 150px;
   width: 150px;
-  margin-left: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .userprofile__name {
   display: flex;
-
   margin: 0;
   padding: 50px;
   text-align: center;
   justify-content: center;
   font-size: large;
+  font-size: 35px;
+}
+
+.userprofile__about {
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 15px;
+  width: 75%;
+  background-color: aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border: 1px dotted lightgray;
+  border-top: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.userprofile__about-title {
+  font-size: 25px;
+  text-align: center;
+  padding: 5px 0 5px 0;
 }
 
 .settings {
-  border-style: none;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border: 1px dotted lightgray;
+  border-bottom: none;
+  border-radius: 5px;
+  background-color: aliceblue;
+  width: 75%;
+}
+
+.settings__darkmode {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.settings__darkmode-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
 }
