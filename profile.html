@@ -9,13 +9,14 @@
       src="https://kit.fontawesome.com/fe85d738be.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./index.js" defer></script>
 
     <title>Quiz App</title>
   </head>
   <header class="header">
     <h1>Quiz App</h1>
   </header>
-  <body>
+  <body data-js="body" class=>
     <main>
       <section class="userprofile">
         <img
@@ -42,9 +43,9 @@
       <section class="settings">
         <p class="settings__darkmode">
           Dark mode
-          <label class="switch">
-            <input type="checkbox" />
-            <span class="slider round"></span>
+          <label class="settings__darkmode-switch">
+            <input type="checkbox" data-js="toggle-switch"/>
+            <span class="settings__darkmode-switch-slider"></span>
           </label>
         </p>
         <p class="settings__darkmode">darkmode</p>
