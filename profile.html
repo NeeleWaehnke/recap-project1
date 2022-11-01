@@ -13,12 +13,12 @@
 
     <title>Quiz App</title>
   </head>
-  <header class="header">
+  <header class="header" data-js="header">
     <h1>Quiz App</h1>
   </header>
-  <body data-js="body" class=>
-    <main>
-      <section class="userprofile">
+  <body data-js="body">
+    <main data-js="main" class="main">
+      <section class="userprofile" data-js="user-card">
         <img
           class="userprofile__picture"
           src="./assets/profile-pic.png"
@@ -26,7 +26,7 @@
         />
         <p class="userprofile__name">Name</p>
       </section>
-      <section class="userprofile__about">
+      <section class="userprofile__about" data-js="user-about">
         <p class="userprofile__about-title">About Me</p>
         <p class="userprofile__about-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
@@ -44,7 +44,7 @@
         <p class="settings__darkmode">
           Dark mode
           <label class="settings__darkmode-switch">
-            <input type="checkbox" data-js="toggle-switch"/>
+            <input type="checkbox" data-js="toggle-switch" />
             <span class="settings__darkmode-switch-slider"></span>
           </label>
         </p>
@@ -53,7 +53,7 @@
     </main>
 
     <footer class="footer">
-      <nav class="navbar">
+      <nav class="navbar" data-js="footer">
         <ul class="navbar__list">
           <li class="navbar__list-home">
             <a href="./index.html"

@@ -43,3 +43,9 @@
   font-size: smaller;
   margin-bottom: 0px;
 }
+
+.dark_mode-card {
+  background-color: #4d4d4d;
+  color: lightgray;
+  border: none;
+}
