@@ -119,9 +119,6 @@ input:checked + .settings__darkmode-switch-slider:before {
   transform: translateX(26px);
 }
 
-.settings {
-}
-
 .dark_mode-card {
   background-color: #737373;
   color: white;
