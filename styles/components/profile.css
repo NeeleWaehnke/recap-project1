@@ -98,7 +98,7 @@
 }
 .settings__darkmode-switch-slider:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 26px;
   width: 26px;
   left: 4px;
@@ -119,5 +119,8 @@ input:checked + .settings__darkmode-switch-slider:before {
   transform: translateX(26px);
 }
 
-.settings {
+.dark_mode-card {
+  background-color: #737373;
+  color: white;
+  border: none;
 }

@@ -41,3 +41,8 @@
 .navbar__list--active {
   background-color: aliceblue;
 }
+
+.dark_mode-footer {
+  background-color: #262626;
+  color: lightgray;
+}

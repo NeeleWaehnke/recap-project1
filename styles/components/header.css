@@ -10,3 +10,8 @@
 h1 {
   text-align: center;
 }
+
+.dark_mode-header {
+  background-color: #262626;
+  color: lightgray;
+}
