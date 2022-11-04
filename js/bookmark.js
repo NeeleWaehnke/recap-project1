@@ -30,9 +30,9 @@ questionButton.addEventListener('click', () => {
 });
 
 function buttonChange() {
-  if ((questionButton.innerText = 'Show answer')) {
-    questionButton.innerText = 'hide answer';
-  } else if ((questionButton.innerText = 'hide answer')) {
+  if (questionButton.innerText === 'Show answer') {
+    questionButton.innerText = 'Hide answer';
+  } else if (questionButton.innerText === 'Hide answer') {
     questionButton.innerText = 'Show answer';
   }
 }
