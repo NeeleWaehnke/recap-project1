@@ -1,4 +1,10 @@
 const bookmarkImage = document.querySelector('[data-js="bookmark-img"]');
+const questionButton = document.querySelector(
+  '[data-js="questioncard-button"]'
+);
+const questionAnswer = document.querySelector(
+  '[data-js="questioncard-answer"]'
+);
 
 function imageChange() {
   if (
@@ -17,3 +23,20 @@ function imageChange() {
 bookmarkImage.addEventListener('click', () => {
   imageChange();
 });
+
+questionButton.addEventListener('click', () => {
+  questionAnswer.classList.toggle('questioncard__answer--show');
+  buttonChange();
+});
+
+function buttonChange() {
+  if ((questionButton.innerText = 'Show answer')) {
+    questionButton.innerText = 'hide answer';
+  } else if ((questionButton.innerText = 'hide answer')) {
+    questionButton.innerText = 'Show answer';
+  }
+}
+// questionButton.addEventListener('click', (e) => {
+//   e.target.innerHTML =
+//     e.target.innerHTML == 'Hide answer' ? 'Show answer' : 'Hide answer';
+// });

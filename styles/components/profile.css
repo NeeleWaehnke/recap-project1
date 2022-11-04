@@ -62,12 +62,16 @@
   border-radius: 5px;
   background-color: aliceblue;
   width: 75%;
+  display: flex;
+  align-items: center;
 }
 
 .settings__darkmode {
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 10px;
+  display: flex;
+  align-content: center;
 }
 
 .settings__darkmode-switch {
@@ -95,6 +99,7 @@
   transition: 0.4s;
   border-radius: 10px;
   left: 80px;
+  align-self: flex-end;
 }
 .settings__darkmode-switch-slider:before {
   position: absolute;
