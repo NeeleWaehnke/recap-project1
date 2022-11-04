@@ -36,6 +36,11 @@
   right: -15px;
   height: 50px;
   width: 50px;
+  align-self: flex-end;
+  mask-image: url(assets/bookmark.line-svgrepo.com.svg);
+  background-color: yellow;
+  padding: 0;
+  margin: 0;
 }
 .questioncard__tag {
   display: inline;
