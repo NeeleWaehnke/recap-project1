@@ -15,10 +15,36 @@
     <main>
       <section class="new-questions">
         <form action="" class="new-questions__form">
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-          <input type="text" />
-          <button></button>
+          <fieldset>
+            <label for="form-question">Add a new question:</label>
+
+            <textarea
+              name=""
+              id="new-questions__form-question"
+              cols="20"
+              rows="5"
+              placeholder="Enter your question here ..."
+              maxlength="150"
+            ></textarea>
+            <label for="form-answer">Put in your answer:</label>
+            <textarea
+              name=""
+              id="new-questions__form-answer"
+              cols="20"
+              rows="5"
+              placeholder="Enter your answer here ..."
+              maxlength="150"
+            ></textarea>
+            <label for="form-tag">Tag:</label>
+            <input
+              type="text"
+              class="new-questions__form-tag"
+              placeholder="Enter a tag"
+            />
+            <button type="submit" class="new-questions__form-button">
+              Submit
+            </button>
+          </fieldset>
         </form>
         <ul class="new-questions__list"></ul>
       </section>
