@@ -37,6 +37,10 @@
   height: 59px;
   margin-right: 15px;
 }
+.navbar__list-form {
+  width: 59px;
+  height: 59px;
+}
 
 .navbar__list--active {
   background-color: aliceblue;

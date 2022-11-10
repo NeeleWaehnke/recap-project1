@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/styles.css" />
     <script src="https://kit.fontawesome.com/fe85d738be.js" crossorigin="anonymous"></script>
-    <script src="./index.js" defer></script>
+    <script src="./js/bookmark.js" defer></script>
     <title>Quiz App</title>
   </head>
   <body data-js="body">
@@ -14,87 +14,49 @@
       <h1>Quiz App</h1>
     </header>
     
-      <section class="questioncard questioncard-open" data-js="questioncard">
+      <section class="questioncard questioncard-open" data-js="questioncard" >
         <div class="questioncard__bookmark">
-          <img src="assets/bookmark-line-svgrepo-com.svg" alt="" />
+          <img src="assets/icons8-lesezeichen-material-outlined/icons8-lesezeichen-96.svg" alt="" data-js="bookmark-img" />
         </div>
-        <p class="questioncard__question">
+        <p class="questioncard__question ">
           What property flips the axes in flexbox?
         </p>
-        <button class="questioncard__button questioncard__button-hide">
-          Hide answer
+        <button class="questioncard__button" data-js="questioncard-button">
+          Show answer
         </button>
-        <p class="questioncard__answer">flex-direction</p>
+        <p class="questioncard__answer" data-js="questioncard-answer">flex-direction</p>
         <p class="questioncard__tag">#flexbox</p>
         <p class="questioncard__tag">#css</p>
       </section>
 
       <section class="questioncard questioncard-close" data-js="questioncard">
         <div class="questioncard__bookmark">
-          <img src="assets/bookmark-line-svgrepo-com.svg" alt="" />
+          <img src="assets/icons8-lesezeichen-material-outlined/icons8-lesezeichen-96.svg" alt="" />
         </div>
-
         <p class="questioncard__question">
           What property flips the axes in flexbox?
         </p>
         <button class="questioncard__button questioncard__button-show">
           Show answer
         </button>
+        <p class="questioncard__answer">flex-direction</p>
         <p class="questioncard__tag">#flexbox</p>
         <p class="questioncard__tag">#css</p>
       </section>
-      <section class="questioncard"><i class="fa-solid fa-frog"></i>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-          hendrerit nisl non metus gravida, accumsan fringilla mi suscipit.
-          Etiam eleifend elementum imperdiet. Sed consequat tincidunt ante. In
-          sagittis ligula sit amet facilisis efficitur. Vivamus hendrerit mi at
-          viverra tristique. Donec pretium, leo ut cursus dapibus, sapien tortor
-          dignissim sapien, nec tincidunt ipsum purus a est. Pellentesque
-          habitant morbi tristique senectus et netus et malesuada fames ac
-          turpis egestas. Cras pellentesque, turpis sollicitudin porta rutrum,
-          ante mi laoreet elit, id volutpat risus dolor nec tellus. Etiam quis
-          enim id erat euismod cursus quis non leo. Aliquam dignissim est
-          ultricies mi feugiat, vitae posuere quam vestibulum. Sed cursus et
-          lacus in convallis. Aliquam mollis, lectus sit amet aliquet pulvinar,
-          lorem metus auctor tellus, id elementum velit lacus vitae sem. Morbi
-          eget lacus quis lacus interdum rutrum a et erat. Cras posuere magna
-          sed tellus pulvinar, vitae elementum velit viverra. In leo leo,
-          sodales nec neque non, egestas congue nulla. Maecenas finibus risus
-          non libero volutpat blandit. In ornare ipsum mauris, non cursus ante
-          pellentesque a. Integer a tempor odio. Aliquam quis feugiat felis, in
-          euismod ipsum. Cras et nisl ornare, pharetra leo a, rhoncus diam.
-          Proin lobortis luctus elit, eget auctor diam consectetur vitae.
-          Quisque feugiat lectus condimentum pellentesque dignissim. Etiam sed
-          arcu pellentesque, egestas ligula nec, semper velit. Sed blandit enim
-          ut metus laoreet, quis pretium est condimentum. In elementum posuere
-          est vitae euismod. Aenean mauris odio, euismod a interdum in, semper
-          vel nibh. Mauris rutrum condimentum nulla sed ultrices. Sed maximus
-          leo mi, eu lobortis mi consectetur vitae. Phasellus sollicitudin
-          tristique quam, eu tristique felis maximus in. Nam tempor, lacus et
-          efficitur suscipit, sem justo fermentum nisi, eget imperdiet tellus
-          tellus quis magna. Pellentesque dignissim, enim molestie mollis
-          rutrum, elit nibh ultricies risus, sit amet tincidunt diam neque non
-          neque. Etiam euismod justo lobortis, placerat ipsum non, venenatis
-          arcu. Phasellus luctus nibh nec volutpat consectetur. Etiam tincidunt
-          enim at urna condimentum ornare. Aenean risus nisi, pretium ut orci
-          at, consectetur aliquet mi. Integer ut suscipit arcu. Donec cursus,
-          nibh in suscipit convallis, quam sapien volutpat risus, sed pretium
-          purus eros in sapien. Nullam nec euismod augue, posuere commodo ante.
-          Sed eleifend maximus velit, et lobortis turpis sollicitudin a.
-          Praesent eleifend neque pharetra nibh iaculis interdum. Sed et nunc
-          rhoncus, finibus arcu in, congue mi. Nullam sodales quam ante, et
-          scelerisque velit condimentum eu. Quisque sed laoreet eros. Vivamus
-          maximus ante at quam efficitur, quis tempus metus gravida. Proin eu
-          lacus augue. Nunc id dui dolor. Suspendisse magna est, scelerisque ut
-          leo quis, lacinia accumsan dolor. Maecenas semper a ipsum sit amet
-          rutrum. Sed scelerisque urna enim. Quisque commodo quis dolor sed
-          consectetur. Integer egestas tristique metus, nec rhoncus turpis
-          pretium et. Proin dapibus orci laoreet neque ultrices, eget interdum
-          nisl ornare. Donec quis nulla mollis, feugiat dolor quis, gravida
-          eros. Nullam facilisis egestas maximus. Duis accumsan rhoncus
-          vehicula.
+
+      <section class="questioncard">
+        <div class="questioncard__bookmark">
+          <img src="assets/icons8-lesezeichen-material-outlined/icons8-lesezeichen-96.svg" alt="" />
+        </div>
+        <p class="questioncard__question">
+          What property flips the axes in flexbox?
         </p>
+        <button class="questioncard__button questioncard__button-show">
+          Show answer
+        </button>
+        <p class="questioncard__answer">flex-direction</p>
+        <p class="questioncard__tag">#flexbox</p>
+        <p class="questioncard__tag">#css</p>         
       </section>
     </main>
     <footer class="footer">
@@ -107,9 +69,10 @@
           </li>
           <li class="navbar__list-bookmark">
             <a href="./bookmarks.html"
-              ><img src="assets/bookmark-line-svgrepo-com.svg" alt="bookmark"
+              ><img src="assets/icons8-lesezeichen-material-outlined/icons8-lesezeichen-96.svg" alt="bookmark"
             /></a>
           </li>
+          <li class="navbar__list-form"><a href="./new-card.html"><img src="assets/icons8-plus-2-50.png" alt=""></a></li>
           <li class="navbar__list-profile">
             <a href="./profile.html"
               ><img src="assets/profile-simple-svgrepo-com.svg" alt="profile"

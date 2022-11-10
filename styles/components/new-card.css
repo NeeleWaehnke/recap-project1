@@ -1,0 +1,35 @@
+.new-questions {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border: 1px dotted lightgray;
+  border-bottom: none;
+  border-radius: 5px;
+  background-color: aliceblue;
+  width: 75%;
+}
+
+fieldset {
+  border: none;
+}
+textarea {
+  border: 1px solid aquamarine;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.new-questions__form-tag {
+  border: 1px solid aquamarine;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.new-questions__form-button {
+  width: 8em;
+  padding: 5px;
+  position: center;
+  margin: auto;
+  display: block;
+  background: lightpink;
+  border: lightcyan;
+  border-radius: 5px;
+}
