@@ -24,9 +24,12 @@ textarea {
 }
 
 .new-questions__form-button {
-  width: 5em;
+  width: 8em;
+  padding: 5px;
   position: center;
   margin: auto;
   display: block;
-  background: transparent;
+  background: lightpink;
+  border: lightcyan;
+  border-radius: 5px;
 }
