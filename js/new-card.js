@@ -6,7 +6,7 @@ const tag = document.querySelector('[data-js="form-tag"]');
 const main = document.querySelector('[data-js="main"]');
 
 form.addEventListener('submit', (event) => {
-  event.preventDefault;
+  event.preventDefault();
   const questionInput = question.value;
   const answerInput = answer.value;
   const tagInput = tag.value;
@@ -23,7 +23,7 @@ form.addEventListener('submit', (event) => {
   newCard.append(newCardQuestion);
 
   const newCardAnswer = document.createElement('p');
-  newCardAnswer.classList.add('questioncard__answer');
+  newCardAnswer.classList.add('questioncard__answer--show');
   newCardAnswer.textContent = answerInput;
   newCard.append(newCardAnswer);
 
