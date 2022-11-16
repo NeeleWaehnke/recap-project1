@@ -1,8 +1,8 @@
 const bookmarkImage = document.querySelector('[data-js="bookmark-img"]');
-const questionButton = document.querySelector(
+const questionButton = document.querySelectorAll(
   '[data-js="questioncard-button"]'
 );
-const questionAnswer = document.querySelector(
+const questionAnswer = document.querySelectorAll(
   '[data-js="questioncard-answer"]'
 );
 
@@ -24,18 +24,21 @@ bookmarkImage.addEventListener('click', () => {
   imageChange();
 });
 
-questionButton.addEventListener('click', () => {
-  questionAnswer.classList.toggle('questioncard__answer--show');
-  buttonChange();
+questionButton.forEach((button, index) => {
+  button.addEventListener('click', (e) => {
+    e.target.innerHTML =
+      e.target.innerHTML == 'Hide answer' ? 'Show answer' : 'Hide answer';
+    questionAnswer[index].classList.toggle('questioncard__answer--show');
+  });
 });
 
-function buttonChange() {
-  if (questionButton.innerText === 'Show answer') {
-    questionButton.innerText = 'Hide answer';
-  } else if (questionButton.innerText === 'Hide answer') {
-    questionButton.innerText = 'Show answer';
-  }
-}
+// function buttonChange() {
+//   if (questionButton.innerText === 'Show answer') {
+//     questionButton.innerText = 'Hide answer';
+//   } else if (questionButton.innerText === 'Hide answer') {
+//     questionButton.innerText = 'Show answer';
+//   }
+// }
 // questionButton.addEventListener('click', (e) => {
 //   e.target.innerHTML =
 //     e.target.innerHTML == 'Hide answer' ? 'Show answer' : 'Hide answer';
