@@ -56,4 +56,5 @@
 
 .questioncard__answer--show {
   visibility: visible;
+  text-align: center;
 }
